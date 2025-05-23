@@ -1,0 +1,45 @@
+/* style.qss - estilo minimalista tipo Bootstrap */
+
+QWidget {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10pt;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+QPushButton {
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+QPushButton:hover {
+    background-color: #0b5ed7;
+}
+QPushButton:pressed {
+    background-color: #0a58ca;
+}
+
+QLineEdit, QTextEdit, QPlainTextEdit {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: white;
+}
+
+QLabel {
+    color: #495057;
+    font-weight: 500;
+}
+
+QFrame#dropArea {
+    border: 2px dashed #6c757d;
+    border-radius: 6px;
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+QFrame#dropArea:hover {
+    background-color: #dee2e6;
+    border-color: #495057;
+}
